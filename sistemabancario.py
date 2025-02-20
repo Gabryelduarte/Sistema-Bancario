@@ -76,10 +76,3 @@ class PessoaFisica(Cliente):
         self.cpf = cpf
         self.nome = nome
         self.data_nascimento = data_nascimento
-
-class PessoaFisica1(Cliente):
-    def __init__(self, endereco: str, cpf: str, nome: str, data_nascimento: date):
-        super().__init__(endereco)
-        self.cpf = cpf
-        self.nome = nome
-        self.data_nascimento = data_nascimento
